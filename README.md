@@ -6,5 +6,5 @@ I have used the MaskRCNN network provided in following git repository: https://g
   * Item Multiple image augmentation techniques.
   *  Item Optimized learning momentum, weight decay, pooling size, and other parameters of the network.
 
-To train the network I labeled the data by hand using the image editing tool, Pixelmator.
+To train the network I labeled the data by hand using the image editing tool, Pixelmator. The codes to creat the images are in the CreatInputImages folder. 
 
