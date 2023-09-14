@@ -1,10 +1,11 @@
 # DeepLearning
-This is an implementation of MaskRCNN network that is used to find cluster structures. The implementations is done in the cluster.py script.
-I have used the MaskRCNN network provided in following git repository: https://github.com/matterport/Mask_RCNN/tree/master and implemented the following changes to make it compatible with our data set and have good results.
+This is an implementation of the MaskRCNN network, designed for identifying cluster structures. The implementation is contained within the 'cluster.py' script. I utilized the MaskRCNN network available in the following GitHub repository: https://github.com/matterport/Mask_RCNN/tree/master.
 
-  * Item I optimized the training schedule to train different stages of the network with optimized learning rate, epochs, and augmentation.
-  * Item Multiple image augmentation techniques.
-  *  Item Optimized learning momentum, weight decay, pooling size, and other parameters of the network.
+To adapt it for our dataset and achieve robust results, I introduced the following modifications:
 
-To train the network I labeled the data by hand using the image editing tool, Pixelmator. The codes to creat the images are in the CreatInputImages folder. 
+  * Item Optimized Training Schedule: I fine-tuned the training schedule to optimize learning rates, epochs, and introduced data augmentation techniques at different stages of the network.
+  * Item Multiple Image Augmentation Techniques: I incorporated various image augmentation techniques to enhance the model's robustness and ability to generalize.
+  *  Item Parameter Optimization: I optimized key parameters such as learning momentum, weight decay, pooling size, and other network-specific parameters to improve overall performance.
+
+To prepare the network for training, I manually labeled the dataset using the image editing tool, Pixelmator. You can find the code used to create these labeled images in the 'CreateInputImages' folder.
 
