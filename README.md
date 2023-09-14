@@ -8,3 +8,5 @@ To adapt it for our dataset and achieve robust results, I introduced the followi
 
 To prepare the network for training, I manually labeled the dataset using the image editing tool, Pixelmator. You can find the code used to create these labeled images in the 'CreateInputImages' folder.
 
+The result of this study is shown in the following papers: https://arxiv.org/abs/2001.03116 and https://arxiv.org/abs/2012.04381.
+
