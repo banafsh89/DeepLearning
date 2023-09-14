@@ -2,6 +2,7 @@
 This is an implementation of the MaskRCNN network, designed for identifying cluster structures. The implementation is contained within the 'cluster.py' script. I utilized the MaskRCNN network available in the following GitHub repository: https://github.com/matterport/Mask_RCNN/tree/master.
 
 Here is an example of the structures we are looking for in an image. The red represents the ground truth, and the yellow represents the network prediction.
+
 <img width="500" alt="Screen Shot 2023-02-08 at 4 34 15 PM" src="https://github.com/banafsh89/DeepLearning/assets/44900049/41fb33a7-6789-4814-8d76-3187ec862293">
 
 
