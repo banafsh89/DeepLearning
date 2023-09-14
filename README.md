@@ -3,8 +3,8 @@ This is an implementation of the MaskRCNN network, designed for identifying clus
 
 Here is an example of the structures we are looking for in an image. The red represents the ground truth, and the yellow represents the network prediction.
 
-<img width="500" alt="Screen Shot 2023-02-08 at 4 34 15 PM" src="https://github.com/banafsh89/DeepLearning/assets/44900049/41fb33a7-6789-4814-8d76-3187ec862293">
 
+<img width="500" alt="Screen Shot 2023-02-08 at 4 34 15 PM" src="https://github.com/banafsh89/DeepLearning/assets/44900049/41fb33a7-6789-4814-8d76-3187ec862293">
 
 To adapt it for our dataset and achieve robust results, I introduced the following modifications:
   * Optimized Training Schedule: I fine-tuned the training schedule to optimize learning rates, epochs, and introduced data augmentation techniques at different stages of the network.
